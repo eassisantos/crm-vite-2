@@ -1,7 +1,5 @@
 import React from 'react';
-import type { ClientStatus } from './ClientCard';
-
-type ClientFilter = ClientStatus | 'Todos';
+import type { ClientFilter } from './types';
 
 type ClientFilterBarProps = {
   filter: ClientFilter;

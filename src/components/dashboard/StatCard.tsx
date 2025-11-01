@@ -1,13 +1,5 @@
 import React from 'react';
-
-export type Trend = 'up' | 'down';
-
-export type Stat = {
-  title: string;
-  value: string;
-  change: string;
-  trend: Trend;
-};
+import type { Stat, Trend } from './types';
 
 const trendColors: Record<Trend, string> = {
   up: 'text-emerald-600 bg-emerald-100',

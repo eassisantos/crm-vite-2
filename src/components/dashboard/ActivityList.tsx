@@ -1,11 +1,5 @@
 import React from 'react';
-
-export type Activity = {
-  id: number;
-  description: string;
-  owner: string;
-  date: string;
-};
+import type { Activity } from './types';
 
 type ActivityListProps = {
   activities: Activity[];

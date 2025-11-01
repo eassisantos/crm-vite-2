@@ -1,9 +1,5 @@
 import React from 'react';
-
-export type OperationIndicator = {
-  label: string;
-  value: number;
-};
+import type { OperationIndicator } from './types';
 
 type OperationHealthProps = {
   indicators: OperationIndicator[];

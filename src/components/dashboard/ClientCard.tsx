@@ -1,16 +1,5 @@
 import React from 'react';
-
-export type ClientStatus = 'Ativo' | 'Inativo' | 'Prospect';
-
-export type Client = {
-  id: number;
-  name: string;
-  company: string;
-  email: string;
-  phone: string;
-  status: ClientStatus;
-  lastActivity: string;
-};
+import type { Client } from './types';
 
 type ClientCardProps = {
   client: Client;

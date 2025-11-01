@@ -1,14 +1,5 @@
 import React from 'react';
-
-export type TaskStatus = 'Em andamento' | 'Concluída' | 'Atrasada';
-
-export type Task = {
-  id: number;
-  title: string;
-  dueDate: string;
-  owner: string;
-  status: TaskStatus;
-};
+import type { Task, TaskStatus } from './types';
 
 type TaskListProps = {
   tasks: Task[];
